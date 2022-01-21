@@ -1,4 +1,4 @@
-const colors = ['green', 'red', 'rgba(133,22,200)','#f15025','white','purple','blue','pink','orange']
+const colors = ['green', 'red', 'rgba(133,22,200)','#f15025','white','purple','blue','pink','orange','76F884','#9F72FE','#ADEDBF','#13CA73','#569073','#66D20D']
 
 const color = document.querySelector('.color')
 
