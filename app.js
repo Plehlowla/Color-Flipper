@@ -1,0 +1,1 @@
+const colors = ['green', 'red', 'rbga(133,22,200)','#f15025']
