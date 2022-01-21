@@ -19,8 +19,33 @@ var autoFunction = (function auto() {
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber];
 
-    return auto;
-}());
+
+    // Take 1
+
+    // var i;
+    // for(i=0;i<50;i+=1){
+    //     (function (index){
+    //         setTimeout(function () {
+    //             return auto();
+    //         }, 4);
+    //     })(i);
+    // }
+
+    // Take 2
+    // function thinkBeforeSpeaking(index) {
+    //     setTimeout(function () {
+    //         return auto();
+    //     }, 400)
+    // }
+
+    // var i;
+
+    // for(i=0;i<10;i+=1){
+    //     thinkBeforeSpeaking();
+    // }
+
+
+});
 
 function getRandomNumber() {
     // return Math.floor(Math.random() * colors.length);
