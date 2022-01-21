@@ -1,4 +1,4 @@
-const colors = ['green', 'red', 'rgba(133,22,200)','#f15025']
+const colors = ['green', 'red', 'rgba(133,22,200)','#f15025','white','purple','blue','pink','orange']
 
 const color = document.querySelector('.color')
 
@@ -35,15 +35,46 @@ var autoFunction = (function auto() {
     // function thinkBeforeSpeaking(index) {
     //     setTimeout(function () {
     //         return auto();
-    //     }, 400)
+    //     }, 4)
     // }
 
     // var i;
 
-    // for(i=0;i<10;i+=1){
+    // for(i=0;i<100;i+=1){
     //     thinkBeforeSpeaking();
     // }
 
+    // Take 3
+    // function waitTimer() {
+    //     setTimeout(function() {
+    //         auto();
+    //     },500)
+    // }
+
+    // var i;
+
+    // for(i=0;i<100;i++){
+    //     waitTimer()
+    // }
+
+
+    // Take 4
+    // var a;
+    // a = setInterval(auto, 1000)
+
+    // // clearInterval(a);
+
+    // Take 5
+    var counter = 0;
+
+    var i = setInterval(function(){
+        auto();
+
+        counter++;
+        if(counter === 1) {
+            clearInterval(i)
+        }
+    }, 900)
 
 });
 
